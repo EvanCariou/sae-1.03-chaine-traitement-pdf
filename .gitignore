@@ -1,0 +1,31 @@
+# Fichiers de sortie
+output/
+*.pdf
+
+# Fichiers de données
+data/
+*.csv
+!input_sample.csv
+
+# Fichiers de cache
+.cache/
+*.tmp
+
+# Fichiers Docker
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Éditeurs et IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Fichiers temporaires
+temp/
+*.bak
