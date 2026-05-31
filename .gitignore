@@ -1,11 +1,5 @@
-# Fichiers de sortie
-output/
-*.pdf
-
-# Fichiers de données
-data/
-*.csv
-!input_sample.csv
+# Fichiers de cache
+.cache/
 
 # Fichiers de cache
 .cache/
