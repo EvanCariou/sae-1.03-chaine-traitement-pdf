@@ -1,17 +1,17 @@
 # Chaîne de traitement & génération de PDF (SAÉ 1.03)
 
-## 📋 Description
+## Description
 
 Pipeline automatisé pour le traitement de données touristiques. Le système ingère des fichiers CSV contenant des sites touristiques, procède au nettoyage des données, à un tri multi-critères (note, prix, popularité), enrichit les informations et génère des documents PDF formatés. L'ensemble est orchestré via des scripts Bash et conteneurisé avec Docker pour une reproductibilité maximale.
 
-## 🛠️ Technos
+## Technos
 
 - **Bash** – Scripts d'orchestration et automatisation
 - **Docker** – Conteneurisation et environnement reproductible
 - **PHP** – Traitement et enrichissement des données
 - **CSV** – Format d'entrée des données
 
-## 📚 Compétences travaillées
+## Compétences travaillées
 
 - **C3 – Administrer des systèmes communicants**
   - Gestion d'une pipeline de traitement automatisée
@@ -25,7 +25,7 @@ Pipeline automatisé pour le traitement de données touristiques. Le système in
   - Scripts partagés et reproductibles
   - Documentation technique pour faciliter la collaboration
 
-## 🚀 Installation / Utilisation
+## Installation / Utilisation
 
 ### Prérequis
 - Docker et Docker Compose
@@ -49,6 +49,6 @@ docker run -v $(pwd)/data:/app/data sae-1.03
 4. **Tri** : Classement selon plusieurs critères
 5. **Génération PDF** : Création des documents finalisés
 
-## 👤 Auteur
+## Auteur
 
 **Evan Cariou** – Année 1 BUT Informatique (2025-2026)
